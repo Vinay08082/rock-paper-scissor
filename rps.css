@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    height: 5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5rem;
+
+}
+img:hover{
+    opacity: 0.4;
+    cursor: pointer;
+    border:5px solid black;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 1rem;
+    
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2.5rem;
+}
+.msgcon{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+.msg{
+    display: inline;
+    background-color: black;
+    color: white;
+    
+}
+button{
+    margin-left: 10px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+}
